@@ -1,0 +1,17 @@
+form{
+	width: 150px;
+}
+
+div{
+	float:left;
+	margin-bottom: 5px;
+}
+
+div input{
+	width: 136px;
+	margin-right: 5px;
+}
+
+button{
+	width: 30px;
+}
