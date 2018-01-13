@@ -4,19 +4,19 @@ HTML/CSS/JAVASCRIPT PROJECT
 
 # WHAT TO DO?
 - Create Skeleton(Complete)
-- Create Design (Incomplete)
+- Create Design (Complete)
   - Form
   - Colors
   - Distances
-- Initialize Javascript(Not Started)
-  - Addition
-  - Subtraction
-  - Division
-  - Multipication
-  - Equals
-  - Cancel
-  - Floating points
-  - Memory systems
+- Initialize Javascript(Incomplete)
+  - Addition(Complete)
+  - Subtraction(Complete)
+  - Division(Complete)
+  - Multipication(Complete)
+  - Equals(Complete)
+  - Cancel(Complete)
+  - Floating points(Complete)
+  - Memory systems(Not Started)
 
 # WHO TO ASK?
 - Developer
