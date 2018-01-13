@@ -27,13 +27,22 @@ function onInput(b)
 		{
 			input.value = "This button does not work yet";
 		}
+		if(b.value === "+" || b.value === "-" || b.value === "*" || b.value === "/")
+		{
+			input.value = input.value + b.value;
+			dot = 0;
+		}
 		else if(b.value === ".")
 		{
-			if(input.length == 0)
+			if(dot != 1)
 			{
-				input.value = "0."
+				if(input.value === "" || input.value === null || input.value === "0")
+				{
+					input.value = "0."
+				}
+				else{input.value = input.value+b.value;}
+				dot++;
 			}
-			dot++;
 		}
 		else{
 			input.value = input.value + b.value;
@@ -44,7 +53,8 @@ function onInput(b)
 function onCancel(){
 	if(input.lenght != 0)
 	{
-		input.value = " ";
+		input.value = "";
+		dot = 0;
 	}
 }
 
@@ -71,5 +81,6 @@ function onSolve(){
 			input.value = eval(formula);
 		}
 		else{alert("You can't solve without an operator"); empty=0;}
+		dot = 0;
 	}
 }
